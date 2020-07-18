@@ -1,0 +1,63 @@
+.initial {
+  border: 0px solid green;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.leftheader {
+  border: 0px solid green;
+  float: left;
+}
+.rightheader {
+  border: 0px solid green;
+  float: right;
+  padding-top: 4%;
+}
+.rightheader h1 {
+  color: red;
+  font-size: 50px;
+}
+nav {
+  border-top: 2px solid red ;
+  border-bottom: 2px solid red ;
+  max-width: 90%;
+  margin: 0 auto
+
+}
+ul{ 
+  text-align: center;
+}
+li {
+ margin-right: 3rem;
+ display: inline;
+}
+article {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+article img {
+  float: left;
+  border-radius: 5%;
+  margin: 0 1.5rem 1rem 0;
+}
+
+article:after { 
+  content: "";
+  display: block; 
+  clear: both;
+}
+footer {
+  border-top: 0.5rem double red;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+footer li {
+  margin: 0 -0.1rem 0 -0.1rem;
+}
+
+footer p {
+  text-align: center;
+
+}
