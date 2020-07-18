@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./background.jpg);
+}
+
+article {
+  border: 2rem groove rgb(0, 136, 255);
+  margin-top: 1rem;
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+article h1 {
+  color: rgb(255, 67, 255);
+  font-size: 32px;
+  border: 0px solid red;
+  text-align: center;
+}
+article h2 {
+  color: rgb(45, 125, 98);
+  border: 0px solid;
+  padding-left: 1rem;
+}
+
+article p {
+  font-size: 22px;
+  display: block;
+}
+
+.float-left {
+  float: left;
+  margin: 0 1rem 0.5rem 1rem;
+}
+.float-right {
+ float: right;
+ margin: 1rem 1rem 1rem 1rem;
+}
+article:after { 
+  content: "";
+  display: block; 
+  clear: both;
+}
